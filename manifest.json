@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "URL Phishing Checker",
+  "version": "1.0",
+  "description": "Checks websites and detects phishing attacks in real time",
+  "permissions": [
+    "tabs",
+    "storage",
+    "activeTab",
+    "webRequest",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

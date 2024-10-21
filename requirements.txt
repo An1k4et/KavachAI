@@ -1,0 +1,9 @@
+scikit-learn==0.24.2
+joblib
+pandas
+requests
+beautifulsoup4
+python-dateutil
+whois
+flask
+flask-cors
